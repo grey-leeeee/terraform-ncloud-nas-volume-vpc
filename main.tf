@@ -7,6 +7,6 @@ resource "ncloud_nas_volume" "nas_volume" {
   cifs_user_password             = var.cifs_user_password
   description                    = var.description
   zone                           = var.zone
-  return_protection              = var.return_protection
   is_encrypted_volume            = var.is_encrypted_volume
+  is_return_protection           = var.is_return_protection
 }

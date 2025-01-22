@@ -55,7 +55,7 @@ variable "zone" {
   default     = null
 }
 
-variable "return_protection" {
+variable "is_return_protection" {
   description = "(Optional) Termination protection status. Default false"
   type        = bool
   default     = false
